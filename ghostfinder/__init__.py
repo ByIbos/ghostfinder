@@ -14,7 +14,8 @@ Quick Start:
 
 from ghostfinder.reid_module import TargetReID
 from ghostfinder.template_tracker import TemplateTracker
+from ghostfinder.template_bank import TemplateBank
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 __author__ = "ByIbos"
-__all__ = ["TargetReID", "TemplateTracker"]
+__all__ = ["TargetReID", "TemplateTracker", "TemplateBank"]
